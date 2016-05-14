@@ -29,8 +29,9 @@ public class Main {
             gameView.addWindowListener(new WindowAdapter() {
                 @Override
                 public void windowClosing(WindowEvent e) {
-                    e.getWindow().dispose();
                     bgClip.stop();
+                    gameView.dispose();
+                    System.exit(0);
                 }
             });
         };
