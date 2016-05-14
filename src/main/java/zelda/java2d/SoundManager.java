@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package zelda.java2d;
 
 
@@ -22,12 +17,6 @@ public class SoundManager {
 
     private final Map<String,AudioClip> clipMap = new HashMap<>();
     private final Map<URL,AudioClip> fileMap = new HashMap<>();
-
-    /**
-     * Default constructor
-     */
-    public SoundManager() {
-    }
 
     /**
      * Plays an audio clip of local clips deployed with Spark.
@@ -99,7 +88,6 @@ public class SoundManager {
                 ac.play();
             }
             catch (MalformedURLException e) {
-                e.printStackTrace();
             }
         };
 
@@ -121,7 +109,6 @@ public class SoundManager {
 
         try {
             clip = Applet.newAudioClip(url);
-
         }
         catch (Exception e) {
         }

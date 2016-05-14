@@ -3,6 +3,9 @@ package zelda.java2d;
 import java.awt.Graphics;
 import java.awt.Image;
 
+/**
+ * Door
+ */
 public class Door extends Shape {
 
     public Door(int x, int y, Game game) {

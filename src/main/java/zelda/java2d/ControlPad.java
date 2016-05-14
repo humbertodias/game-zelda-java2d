@@ -3,6 +3,9 @@ package zelda.java2d;
 import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
 
+/**
+ * Class which controls movements of the character
+ */
 public class ControlPad
         extends KeyAdapter {
 

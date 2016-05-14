@@ -53,6 +53,10 @@ public final class Game
         loadLevel();
     }
 
+    public String getMessage() {
+        return message;
+    }
+
     public void loadLevel() {
         this.linkStates[0] = ImageUtil.get("link-N.png");
         this.linkStates[1] = ImageUtil.get("link-S.png");
