@@ -8,7 +8,6 @@ package zelda.java2d;
 
 import java.applet.Applet;
 import java.applet.AudioClip;
-import java.awt.Image;
 import java.io.File;
 import java.net.MalformedURLException;
 import java.net.URL;
@@ -125,7 +124,6 @@ public class SoundManager {
 
         }
         catch (Exception e) {
-            e.printStackTrace();
         }
 
         return clip;

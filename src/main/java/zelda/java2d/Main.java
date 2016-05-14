@@ -12,7 +12,8 @@ public class Main {
         
         SoundManager sm = new SoundManager();
         AudioClip bgClip = sm.playClip("02-overworld.wav");
-
+        bgClip.loop();
+        
         Runnable r = () -> {
             JFrame gameView = new JFrame("2D Zelda Top-Down Game");
             gameView.setSize(486, 474);

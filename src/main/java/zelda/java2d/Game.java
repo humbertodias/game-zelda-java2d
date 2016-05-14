@@ -221,8 +221,6 @@ public final class Game
     public void drawHealth(Graphics g) {
         Font font = new Font("Arial", 1, 20);
         g.setFont(font);
-        g.setColor(new Color(255, 255, 255));
-//        g.fillRect(TILE_SIZE, TILE_SIZE, this.pMaxHealth * 15, TILE_SIZE);
 
         for (int i = 0; i < this.pMaxHealth; i++) {
             if (i + 1 > this.pHealth) {
